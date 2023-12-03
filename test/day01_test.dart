@@ -70,6 +70,7 @@ void main() {
       final day = Day01();
       test(
         'Part 1',
+        // ignore: unnecessary_null_comparison
         skip: _puzzleSolutionPart1 == null
             ? 'Skipped because _puzzleSolutionPart1 is null'
             : false,
@@ -77,6 +78,7 @@ void main() {
       );
       test(
         'Part 2',
+        // ignore: unnecessary_null_comparison
         skip: _puzzleSolutionPart2 == null
             ? 'Skipped because _puzzleSolutionPart2 is null'
             : false,
