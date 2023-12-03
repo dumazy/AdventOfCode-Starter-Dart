@@ -1,5 +1,3 @@
-import 'package:quiver/pattern.dart';
-
 import '../utils/index.dart';
 
 /// numbers and anything other than a dot (.)
